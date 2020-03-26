@@ -65,11 +65,11 @@ $ gitfolio build <username> --sort star --order desc
 Themes are specified using the ```--theme [theme-name]``` flag when running the ```build``` command. The available themes are
 
 <ul>
-  <li>
-```light```
+  <li> ```
+light
 <li>
-```dark```
-  </li></ul>
+dark
+  ```</li></ul>
 
 TODO: Add more themes
 
