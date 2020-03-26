@@ -73,7 +73,7 @@ light
 dark
   </li></ul>
 
-##### TODO: Add more themes
+###### TODO: Add more themes
 
 For example, the following command will build the website with the dark theme
 
@@ -102,11 +102,14 @@ gitfolio build <username> --twitter <twitter_username> --linkedin <linkedin_user
 
 ```
 
+
 ## Lets Publish
 
 Head over to GitHub and create a new repository named ```username.github.io```, where username is your username. Push the files ```inside/dist``` folder to repo you just created.
 
 Go To ```username.github.io``` your site should be up!!
+
+
 
 ## Updating
 
@@ -121,6 +124,7 @@ or use the ```Update``` options in gitfolio's UI
 This will update your info and your repository info.
 
 To Update background or theme you need to run ```build``` command again.
+
 
 
 ## Add a Blog
@@ -138,7 +142,9 @@ Look for success or error in your terminal.
 
 This also adds content to ```blog.json``` file. This file helps in showcasing your blogs on your personal website as cards. You could customize the JSON object that corresponds your current blog.
 
-Blog's default JSON Format
+
+
+### Blog's default JSON Format
 
 ```
 {
