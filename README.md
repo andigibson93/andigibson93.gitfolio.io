@@ -1,18 +1,16 @@
-# Gitfolio
-
 # Getting Started
 
 ## Lets install
 
-###Install gitfolio
+### Install gitfolio
 
 ```
 npm i gitfolio -g
 ```
 
-#Let's Build
+# Let's Build
 
-###Using the UI
+### Using the UI
 
 ```
 $ gitfolio ui
@@ -35,16 +33,16 @@ gitfolio run -p [port]
 
 🎉 Congrats, you just made yourself a personal website!
 
-#Let's Customize
+# Let's Customize
 
-##Forks
+## Forks
 To include forks on your personal website just provide ```-f``` or ```--fork``` argument while building
 
 ```
 $ gitfolio build <username> -f
 ```
 
-##Sorting Repos
+## Sorting Repos
 
 To sort repos provide ```--sort [sortBy]``` argument while building. Where ```[sortBy]``` can be ```star, created, updated, pushed,full_name.``` Default: ```created```
 
@@ -52,7 +50,7 @@ To sort repos provide ```--sort [sortBy]``` argument while building. Where ```[s
 $ gitfolio build <username> --sort star
 ```
 
-##Ordering Repos
+## Ordering Repos
 
 To order the sorted repos provide ```--order [orderBy]``` argument while building. Where ```[orderBy]``` can be ```asc``` or ```desc.``` Default: asc
 
@@ -60,7 +58,7 @@ To order the sorted repos provide ```--order [orderBy]``` argument while buildin
 $ gitfolio build <username> --sort star --order desc
 ```
 
-##Customize Themes
+## Customize Themes
 
 Themes are specified using the ```--theme [theme-name]``` flag when running the ```build``` command. The available themes are
 
@@ -79,7 +77,7 @@ For example, the following command will build the website with the dark theme
 $ gitfolio build <username> --theme dark
 ```
 
-##Customize background image
+## Customize background image
 
 To customize the background image just provide --background [url] argument while building
 
@@ -90,7 +88,7 @@ $ gitfolio build <username> --background https://images.unsplash.com/photo-15572
 You could also add in your custom CSS inside index.css to give it a more personal feel.
 
 
-##Add Social Media links on your profile
+## Add Social Media links on your profile
 
 Twitter, LinkedIn, Medium & Dribbble links to your profile while building
 
@@ -99,13 +97,13 @@ gitfolio build <username> --twitter <twitter_username> --linkedin <linkedin_user
 
 ```
 
-##Let's Publish
+## Lets Publish
 
 Head over to GitHub and create a new repository named ```username.github.io```, where username is your username. Push the files ```inside/dist``` folder to repo you just created.
 
 Go To ```username.github.io``` your site should be up!!
 
-##Updating
+## Updating
 
 To update your info, simply run
 
@@ -120,7 +118,7 @@ This will update your info and your repository info.
 To Update background or theme you need to run ```build``` command again.
 
 
-##Add a Blog
+## Add a Blog
 
 To add your first blog use the UI.
 
