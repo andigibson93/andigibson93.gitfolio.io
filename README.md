@@ -1,4 +1,5 @@
 # andigibson93.gitfolio.io
+
 Gitfolio
 Tweet GitHub release npm GitHub top language GitHub last commit GitHub code style: prettier
 
@@ -10,8 +11,10 @@ Check out this live demo to see gitfolio in action.
 Getting Started
 Let's Install
 Install gitfolio
-
+```
 npm i gitfolio -g
+```
+
 Let's Build
 Using the UI
 
