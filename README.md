@@ -19,6 +19,7 @@ $ gitfolio ui
 <Edit>
 Tip: You can use ui to create new blogs and for updating your folio too.
 
+
 or
 
 ```gitfolio build <username> ```
@@ -35,12 +36,14 @@ gitfolio run -p [port]
 
 # Let's Customize
 
+
 ## Forks
 To include forks on your personal website just provide ```-f``` or ```--fork``` argument while building
 
 ```
 $ gitfolio build <username> -f
 ```
+
 
 ## Sorting Repos
 
@@ -49,6 +52,7 @@ To sort repos provide ```--sort [sortBy]``` argument while building. Where ```[s
 ```
 $ gitfolio build <username> --sort star
 ```
+
 
 ## Ordering Repos
 
@@ -69,13 +73,14 @@ light
 dark
   </li></ul>
 
-TODO: Add more themes
+##### TODO: Add more themes
 
 For example, the following command will build the website with the dark theme
 
 ```
 $ gitfolio build <username> --theme dark
 ```
+
 
 ## Customize background image
 
