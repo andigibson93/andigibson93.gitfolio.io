@@ -1,6 +1,6 @@
 # Getting Started
 
-## Lets install
+## Lets Install
 
 ### Install gitfolio
 
@@ -8,7 +8,7 @@
 npm i gitfolio -g
 ```
 
-# Let's Build
+## Let's Build
 
 ### Using the UI
 
@@ -34,10 +34,10 @@ gitfolio run -p [port]
 
 🎉 Congrats, you just made yourself a personal website!
 
-# Let's Customize
+## Let's Customize
 
 
-## Forks
+### Forks
 To include forks on your personal website just provide ```-f``` or ```--fork``` argument while building
 
 ```
@@ -45,7 +45,7 @@ $ gitfolio build <username> -f
 ```
 
 
-## Sorting Repos
+### Sorting Repos
 
 To sort repos provide ```--sort [sortBy]``` argument while building. Where ```[sortBy]``` can be ```star, created, updated, pushed,full_name.``` Default: ```created```
 
@@ -54,7 +54,7 @@ $ gitfolio build <username> --sort star
 ```
 
 
-## Ordering Repos
+### Ordering Repos
 
 To order the sorted repos provide ```--order [orderBy]``` argument while building. Where ```[orderBy]``` can be ```asc``` or ```desc.``` Default: asc
 
@@ -62,7 +62,7 @@ To order the sorted repos provide ```--order [orderBy]``` argument while buildin
 $ gitfolio build <username> --sort star --order desc
 ```
 
-## Customize Themes
+### Customize Themes
 
 Themes are specified using the ```--theme [theme-name]``` flag when running the ```build``` command. The available themes are
 
@@ -82,7 +82,7 @@ $ gitfolio build <username> --theme dark
 ```
 
 
-## Customize background image
+### Customize background image
 
 To customize the background image just provide --background [url] argument while building
 
@@ -93,7 +93,7 @@ $ gitfolio build <username> --background https://images.unsplash.com/photo-15572
 You could also add in your custom CSS inside index.css to give it a more personal feel.
 
 
-## Add Social Media links on your profile
+### Add Social Media links on your profile
 
 Twitter, LinkedIn, Medium & Dribbble links to your profile while building
 
