@@ -1,6 +1,6 @@
 # Getting Started
 
-<img src="https://andigibson93.github.io/" width=200><br>
+https://andigibson93.github.io/
 
 ## Lets Install
 
