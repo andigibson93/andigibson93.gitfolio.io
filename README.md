@@ -64,11 +64,14 @@ $ gitfolio build <username> --sort star --order desc
 
 Themes are specified using the ```--theme [theme-name]``` flag when running the ```build``` command. The available themes are
 
+```
 <ul>
   <li>
-```light
-dark```
+light
+<li>
+dark
   </li></ul>
+```
 
 TODO: Add more themes
 
@@ -88,6 +91,7 @@ $ gitfolio build <username> --background https://images.unsplash.com/photo-15572
 
 You could also add in your custom CSS inside index.css to give it a more personal feel.
 
+
 ##Add Social Media links on your profile
 
 Twitter, LinkedIn, Medium & Dribbble links to your profile while building
@@ -99,9 +103,9 @@ gitfolio build <username> --twitter <twitter_username> --linkedin <linkedin_user
 
 ##Let's Publish
 
-Head over to GitHub and create a new repository named username.github.io, where username is your username. Push the files inside/dist folder to repo you just created.
+Head over to GitHub and create a new repository named ```username.github.io```, where username is your username. Push the files ```inside/dist``` folder to repo you just created.
 
-Go To username.github.io your site should be up!!
+Go To ```username.github.io``` your site should be up!!
 
 ##Updating
 
@@ -115,15 +119,15 @@ or use the ```Update``` options in gitfolio's UI
 
 This will update your info and your repository info.
 
-To Update background or theme you need to run build command again.
+To Update background or theme you need to run ```build``` command again.
+
 
 ##Add a Blog
 
 To add your first blog use the UI.
 
-```
-$ gitfolio ui
-```
+
+```$ gitfolio ui ```
 
 This will open up a UI page and you can click on``` New Blog ```to create a new blog. Once you are done writing your blog you can hit the ```Create Blog.```
 
