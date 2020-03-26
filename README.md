@@ -1,23 +1,17 @@
-# andigibson93.gitfolio.io
-
-Gitfolio
-Tweet GitHub release npm GitHub top language GitHub last commit GitHub code style: prettier
-
-personal website + blog for every github user
-Gitfolio will help you get started with a portfolio website where you could showcase your work + a blog that will help you spread your ideas into real world.
-
-Check out this live demo to see gitfolio in action.
+# Gitfolio
 
 #Getting Started
 
 ##Let's Install
 
 ###Install gitfolio
+
 ```
 npm i gitfolio -g
 ```
 
 #Let's Build
+
 ###Using the UI
 
 ```
@@ -29,8 +23,7 @@ Tip: You can use ui to create new blogs and for updating your folio too.
 
 or
 
-```gitfolio build <username>
-```
+```gitfolio build <username> ```
 
 ```<username>``` is your username on github. This will build your website using your GitHub username and put it in the ```/dist``` folder.
 
