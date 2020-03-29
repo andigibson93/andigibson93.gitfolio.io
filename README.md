@@ -4,7 +4,7 @@
 
 
 
-Demo: https://andigibson93.github.io/
+Check it out: https://andigibson93.github.io/
 
 ## Lets Install
 
